@@ -1797,7 +1797,7 @@
 	header p {
 		margin: 0 0 1.5em 0;
 		position: relative;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 	header h2 + p {
