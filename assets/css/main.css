@@ -1660,7 +1660,7 @@
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3768,7 +3768,7 @@
 		padding: 3em 2em;
 		position: fixed;
 		right: 0;
-		text-transform: uppercase;
+		text-transform: none;
 		top: 0;
 		visibility: hidden;
 		width: 20em;
@@ -4009,7 +4009,7 @@
 			color: #fff;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
-			text-transform: uppercase;
+			text-transform: none;
 		}
 
 		#banner .icon {
