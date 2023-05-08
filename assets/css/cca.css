@@ -203,7 +203,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
 }
 body.is-preload *,
 body.is-preload *:before,
@@ -235,18 +235,18 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #537eba;
+  color: #268a91;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #537eba;
+  color: #268a91;
   text-decoration: none;
 }
 
 strong,
 b {
-  color: #1a1a1a;
+  color: #268a91;
   font-weight: 300;
 }
 
@@ -265,7 +265,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1a1a1a;
+  color: #268a91;
   font-weight: 300;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -286,7 +286,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 3.0em;
   line-height: 1.5em;
 }
 
@@ -1549,7 +1549,7 @@ header h6 + p {
 }
 header.major h2 {
   font-size: 1.75m;
-  color: #537eba;
+  color: #268a91;
 }
 
 /* Form */
@@ -1558,7 +1558,7 @@ form {
 }
 
 label {
-  color: #1a1a1a;
+  color: #268a91;
   display: block;
   font-size: 0.9em;
   font-weight: 300;
@@ -1596,7 +1596,7 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #537eba;
+  border-color: #268a91;
 }
 
 select {
@@ -1609,7 +1609,7 @@ select {
   text-overflow: ellipsis;
 }
 select option {
-  color: #1a1a1a;
+  color: #268a91;
   background: #fff;
 }
 select:focus::-ms-value {
@@ -1693,7 +1693,7 @@ input[type=radio]:checked + label:before {
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #537eba;
+  border-color: #268a91;
 }
 
 input[type=checkbox] + label:before {
@@ -1821,7 +1821,7 @@ input[type=radio] + label:before {
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   border-radius: 0.35em;
-  border: solid 3px rgba(255, 255, 255, 0.5);
+  border: solid 3px rgba(255, 255, 255, 1.0);
   color: #fff;
   content: "View";
   display: inline-block;
@@ -1880,8 +1880,8 @@ input[type=radio] + label:before {
   display: none;
 }
 .image.avatar img {
-  border-radius: 100%;
-  width: 100%;
+  border-radius: 20%;
+  width: 300px;
 }
 
 /* List */
@@ -2139,7 +2139,7 @@ input[type=button],
   background-color: transparent;
   border-radius: 0.35em;
   border: solid 3px #efefef;
-  color: #1a1a1a !important;
+  color: #268a91 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 300;
@@ -2156,16 +2156,16 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
 .button:hover {
-  border-color: #537eba;
-  color: #537eba !important;
+  border-color: #268a91;
+  color: #268a91 !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active,
 .button:active {
   background-color: rgba(83, 126, 186, 0.1);
-  border-color: #537eba;
-  color: #537eba !important;
+  border-color: #268a91;
+  color: #268a91 !important;
 }
 input[type=submit].icon,
 input[type=reset].icon,
@@ -2213,8 +2213,8 @@ input[type=submit].primary,
 input[type=reset].primary,
 input[type=button].primary,
 .button.primary {
-  background-color: #537eba;
-  border-color: #537eba;
+  background-color: #268a91;
+  border-color: #268a91;
   color: #ffffff !important;
 }
 input[type=submit].primary:hover,
@@ -2278,12 +2278,12 @@ input[type=button]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #537eba;
+  background-color: #EDC6B1;
   background-attachment: scroll, scroll;
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1.0);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2321,14 +2321,14 @@ input[type=button]:disabled,
   color: #ffffff;
 }
 #header h1 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1.0);
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
 }
 #header .image.avatar {
-  margin: 0 0 1em 0;
-  width: 8.25em;
+  margin: -3em 1em 1em 0;
+  width: 16.25em;
 }
 #header #nav {
   -moz-flex-grow: 1;
@@ -2353,21 +2353,21 @@ input[type=button]:disabled,
   -ms-transition: none;
   transition: none;
   border: 0;
-  color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
   display: block;
   text-decoration: none;
   font-size: 1.5em;
   line-height: 2;
 }
 #header #nav > ul li a.active {
-  color: #fff;
+  color: #268a91;
   -moz-transition: all 250ms ease-out;
   -webkit-transition: all 250ms ease-out;
   -ms-transition: all 250ms ease-out;
   transition: all 250ms ease-out;
 }
 #header #nav > ul li a:hover {
-  color: #fff;
+  color: #268a91;
   -moz-transition: all 250ms ease-out;
   -webkit-transition: all 250ms ease-out;
   -ms-transition: all 250ms ease-out;
@@ -2458,7 +2458,7 @@ input[type=button]:disabled,
   -ms-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  background: #fff;
+  background: #268a91;
   border-radius: 0.35em;
   box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -2538,7 +2538,7 @@ input[type=button]:disabled,
 }
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
-  color: #fff;
+  color: #268a91;
   font-size: 2.5em;
   height: 1em;
   line-height: 1em;
@@ -2569,7 +2569,7 @@ input[type=button]:disabled,
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  color: #fff;
+  color: #268a91;
   height: 4em;
   line-height: 4em;
   opacity: 0;
@@ -2768,7 +2768,7 @@ h6 br {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #537eba;
+    background: #268a91;
     color: #fff;
     min-width: 320px;
   }
@@ -2821,7 +2821,7 @@ h6 br {
   }
   #titleBar .toggle:before {
     text-decoration: none;
-    background: #537eba;
+    background: #268a91;
     color: #ffffff;
     content: "\f0c9";
     display: block;
@@ -2940,4 +2940,4 @@ article.special {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=cca.css.map */
