@@ -235,18 +235,18 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #268a91;
+  color: #076cb0;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #268a91;
+  color: #076cb0;
   text-decoration: none;
 }
 
 strong,
 b {
-  color: #268a91;
+  color: #076cb0;
   font-weight: 300;
 }
 
@@ -265,7 +265,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #268a91;
+  color: #076cb0;
   font-weight: 300;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -1549,7 +1549,7 @@ header h6 + p {
 }
 header.major h2 {
   font-size: 1.75m;
-  color: #268a91;
+  color: #076cb0;
 }
 
 /* Form */
@@ -1558,7 +1558,7 @@ form {
 }
 
 label {
-  color: #268a91;
+  color: #076cb0;
   display: block;
   font-size: 0.9em;
   font-weight: 300;
@@ -1596,7 +1596,7 @@ input[type=password]:focus,
 input[type=email]:focus,
 select:focus,
 textarea:focus {
-  border-color: #268a91;
+  border-color: #076cb0;
 }
 
 select {
@@ -1609,7 +1609,7 @@ select {
   text-overflow: ellipsis;
 }
 select option {
-  color: #268a91;
+  color: #076cb0;
   background: #fff;
 }
 select:focus::-ms-value {
@@ -1693,7 +1693,7 @@ input[type=radio]:checked + label:before {
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #268a91;
+  border-color: #076cb0;
 }
 
 input[type=checkbox] + label:before {
@@ -2139,7 +2139,7 @@ input[type=button],
   background-color: transparent;
   border-radius: 0.35em;
   border: solid 3px #efefef;
-  color: #268a91 !important;
+  color: #076cb0 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 300;
@@ -2156,16 +2156,16 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
 .button:hover {
-  border-color: #268a91;
-  color: #268a91 !important;
+  border-color: #076cb0;
+  color: #076cb0 !important;
 }
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active,
 .button:active {
   background-color: rgba(83, 126, 186, 0.1);
-  border-color: #268a91;
-  color: #268a91 !important;
+  border-color: #076cb0;
+  color: #076cb0 !important;
 }
 input[type=submit].icon,
 input[type=reset].icon,
@@ -2213,8 +2213,8 @@ input[type=submit].primary,
 input[type=reset].primary,
 input[type=button].primary,
 .button.primary {
-  background-color: #268a91;
-  border-color: #268a91;
+  background-color: #076cb0;
+  border-color: #076cb0;
   color: #ffffff !important;
 }
 input[type=submit].primary:hover,
@@ -2360,14 +2360,14 @@ input[type=button]:disabled,
   line-height: 2;
 }
 #header #nav > ul li a.active {
-  color: #268a91;
+  color: #076cb0;
   -moz-transition: all 250ms ease-out;
   -webkit-transition: all 250ms ease-out;
   -ms-transition: all 250ms ease-out;
   transition: all 250ms ease-out;
 }
 #header #nav > ul li a:hover {
-  color: #268a91;
+  color: #076cb0;
   -moz-transition: all 250ms ease-out;
   -webkit-transition: all 250ms ease-out;
   -ms-transition: all 250ms ease-out;
@@ -2458,7 +2458,7 @@ input[type=button]:disabled,
   -ms-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  background: #268a91;
+  background: #076cb0;
   border-radius: 0.35em;
   box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -2538,7 +2538,7 @@ input[type=button]:disabled,
 }
 .poptrox-popup .nav-next:before,
 .poptrox-popup .nav-previous:before {
-  color: #268a91;
+  color: #076cb0;
   font-size: 2.5em;
   height: 1em;
   line-height: 1em;
@@ -2569,7 +2569,7 @@ input[type=button]:disabled,
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  color: #268a91;
+  color: #076cb0;
   height: 4em;
   line-height: 4em;
   opacity: 0;
@@ -2768,7 +2768,7 @@ h6 br {
     top: 0;
     width: 100%;
     z-index: 10001;
-    background: #268a91;
+    background: #076cb0;
     color: #fff;
     min-width: 320px;
   }
@@ -2821,7 +2821,7 @@ h6 br {
   }
   #titleBar .toggle:before {
     text-decoration: none;
-    background: #268a91;
+    background: #076cb0;
     color: #ffffff;
     content: "\f0c9";
     display: block;
