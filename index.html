@@ -14,13 +14,13 @@
       --ink-mid: #4a4a4a;
       --ink-soft: #7a7878;
       --rule: #d8d4cc;
-      --bg: #eef4f7;
-      --bg-card: #f5f9fb;
+      --bg: #ddeaf0;
+      --bg-card: #eaf3f7;
       --accent: #1a6bc4;
       --accent-light: #e8edf5;
       --serif: 'Outfit', system-ui, sans-serif;
       --sans: 'DM Sans', system-ui, sans-serif;
-      --max: 1060px;
+      --max: 1280px;
     }
 
     a { color: var(--accent); }
@@ -202,7 +202,7 @@
     .research-intro {
       font-size: 1.05rem;
       color: var(--ink-mid);
-      max-width: 600px;
+      max-width: 100%;
       margin-bottom: 3rem;
     }
 
@@ -484,7 +484,7 @@
   <!-- Navigation -->
   <nav>
     <div class="nav-inner">
-      <ul class="nav-links" style="margin-left:auto">
+      <ul class="nav-links" style="margin:0 auto">
         <li><a href="#about">About</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
@@ -676,7 +676,7 @@
         <div class="cv-year" style="padding-top:4px">zoomies</div>
         <div class="cv-detail">
           <h4><a href="https://github.com/ssagear/zoomies" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">github.com/ssagear/zoomies</a></h4>
-          <p>An open-source Python package to infer stellar ages from vertical action in Gaia data. The relation is nearly mass-independent, making it applicable to any star from supergiants to M dwarfs.</p>
+          <p>zoomies is an open-source tool to constrain stellar ages using only kinematic information (vertical action from Gaia), a galactic potential model, and an external stellar calibration sample. The package includes tools to calibrate a stellar age–vertical action relation and apply it to your desired stellar sample. Since the age relation comes from purely kinematic information (Galactic orbits), the relation is nearly completely mass-independent, meaning you can use this tool to constrain ages for any stars from supergiants to M dwarfs!</p>
         </div>
       </div>
       <div class="cv-entry" style="padding-top:1.25rem">
@@ -723,8 +723,8 @@
 
   </main>
 
-  <div style="max-width:860px;margin:0 auto;padding:0 2rem 4rem">
-    <figure style="margin:0">
+  <div style="max-width:var(--max);margin:0 auto;padding:0 2rem 4rem">
+    <figure style="margin:0 auto;max-width:600px">
       <img src="https://ssagear.github.io/images/group.jpg" alt="OWL Exoplanet Workshop group photo" style="width:100%;border-radius:6px;border:1px solid var(--rule);display:block" />
       <figcaption style="font-size:0.82rem;color:var(--ink-soft);margin-top:0.75rem;line-height:1.5;font-style:italic">My lovely group at the OWL Exoplanet Workshop in Santa Cruz, CA. L to R: Natalia Guerrero, Chris Lam, and Quadry Chance.</figcaption>
     </figure>
