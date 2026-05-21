@@ -1,450 +1,739 @@
 <!DOCTYPE html>
-<!--
-  flatironinstitute.org
-  -->
-<html>
-  <head>
-    <!-- TODO: Add your name -->
-    <title>Sheila Sagear | University of Florida</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Sheila Sagear - astronomy graduate student University of Florida">
-    <meta name="keywords" content="Sheila, Sagear, Sheila Sagear">
-    <meta name="google-site-verification" content="JM0WiEk1-iXmQxYsYHPIhM3tyyJP-dT0E3EUYy8N4rs" />
-    <!-- <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    /> -->
-    <!-- TODO: If you wish to use your center color scheme, please replace main.css with the center acronymn ex:
-      cca.css, ccb.css, etc
-    -->
-    <link rel="stylesheet" href="assets/css/cca.css" />
-  </head>
-  <body class="is-preload">
-    <!-- Header -->
-    <header id="header">
-      <div class="inner">
-        <!-- TODO: Add a personal photo in /images folder or switch src link to avatar.jpg for a gray circle -->
-        <a href="#" class="image avatar"
-          ><img src="images/avatar.jpg" alt=""
-        /></a>
-      </div>
-      <nav id="nav">
-        <ul>
-          <li>
-            <a
-              href="#about"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="#research"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >Research</a
-            >
-          </li>
-          <li>
-            <a
-              href="#papers"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >Papers</a
-            >
-          </li>
-          <li>
-            <a
-              href="#presentations"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >Presentations</a
-            >
-          </li>
-          <li>
-            <a
-              href="#software"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >Software</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contact"
-              style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Main -->
-    <div id="main">
-      <!-- About -->
-      <section id="about">
-        <header class="major">
-          <!-- TODO: Add your name -->
-          <h2>Sheila A. Sagear</h2>
-        </header>
-        <!-- TODO: Add your own bio -->
-        <p>
-          Welcome to my website! I am a Ph.D. Candidate in Astronomy at the University of Florida.
-          With my advisor Prof. Sarah Ballard, 
-          I study exoplanets around the smallest and coolest stars. 
-          <br>
-          I recieved my Bachelor's degree in Astronomy & Physics 
-          from Boston University in 2020. In the past, I have been a 
-          Flatiron Pre-Doctoral Fellow in the
-          <a
-            href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/"
-            rel="noreferrer noopener"
-            target="_blank"
-            >Center for Computational Astrophysics
-            </a
-          >
-          at the Flatiron Institute,
-          an intern at the 
-          <a
-            href="https://twitter.com/KeplerGO"
-            rel="noreferrer noopener"
-            target="_blank"
-            >Kepler/K2 Guest Observer office</a
-          >
-           at NASA Ames Research Center and the 
-          <a
-            href="https://fastmachinelearning.org/"
-            rel="noreferrer noopener"
-            target="_blank"
-            >FastML group</a
-          >
-          at CERN.
-          <br>
-          <br>
-          <a href="pdfs/cv.pdf" rel="noreferrer noopener" target="_blank"
-            >Click here to download my CV.</a
-          >
-        </p>
-      </section>
-      <!-- Research -->
-      <section id="research">
-        <h2>Research</h2>
-        <!-- TODO: Replace with project info and choose image type -->
-        <div class="row">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Sheila Sagear — Astronomer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Outfit:wght@100;200;300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        <article class="col-6 col-12-xsmall work-item">
-            <h3>
-              <a
-                href="https://www.arxiv.org/abs/2509.23973"
-                rel="noreferrer noopener"
-                target="_blank"
-                >The Orbital Eccentricities of Planets in the Kinematic Thin and Thick Galactic Disks</a
-              >
-            </h3>
-            <p>
-              With Gaia DR3 astrometry along with stellar chemistry from the Kepler-APOGEE sample,
-              we calibrate a classification model to categorize Kepler stars with the thin or thick 
-              Galatcic disks using only Galactic kinematic criteria.
-              We find evidence that planets associated with the kinematically thick Galactic disk are, 
-              on average, more eccentric than planets in the kinematically thin disk.
-              This work has been submitted to AAS journals.
-            </p>
-          </article>
+    :root {
+      --ink: #1a1a1a;
+      --ink-mid: #4a4a4a;
+      --ink-soft: #7a7878;
+      --rule: #d8d4cc;
+      --bg: #eef4f7;
+      --bg-card: #f5f9fb;
+      --accent: #1a6bc4;
+      --accent-light: #e8edf5;
+      --serif: 'Outfit', system-ui, sans-serif;
+      --sans: 'DM Sans', system-ui, sans-serif;
+      --max: 1060px;
+    }
 
-          <article class="col-6 col-12-small work-item">
-            <a href="images/fulls/sagear25b.pdf" class="image fit thumb">
-              <!-- TODOL Add alt text for popup caption. -->
-              <img src="images/thumbs/sagear25b.pdf" alt="None"/>
-            </a>
-          </article>
+    a { color: var(--accent); }
+    a:hover { color: var(--accent); }
 
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.7;
+    }
 
-          <article class="col-6 col-12-xsmall work-item">
-            <h3>
-              <a
-                href="https://arxiv.org/abs/2507.07169"
-                rel="noreferrer noopener"
-                target="_blank"
-                >The Orbital Eccentricity-Radius Relation for Planets Orbiting M Dwarfs</a
-              >
-            </h3>
-            <p>
-              The orbital eccentricity-radius relation for small planets gives us clues as to
-              how planets form and evolve, especially in terms of late-stage dynamical evolution.
-              We investigate the eccentricity—radius relation in a sample of 
-              planets orbiting M dwarf stars. With data from the TESS and Kepler missions, 
-              we constrain orbital eccentricities for a sample of ~200 planets.
-              We present evidence for a positive eccentricity-radius relationship with elevated eccentricities for planets larger than 3.5 R_earth, 
-              similar to the trend for planets orbiting Sun-like stars. This work has been submitted to AJ and is in review as of July 2025.
-            </p>
-          </article>
+    /* ── Navigation ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(250, 249, 246, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--rule);
+    }
 
-          <article class="col-6 col-12-small work-item">
-            <a href="images/fulls/sagear25.jpg" class="image fit thumb">
-              <!-- TODOL Add alt text for popup caption. -->
-              <img src="images/thumbs/sagear25.jpg" alt="None"/>
-            </a>
-          </article>
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
+    .nav-logo {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
 
+    .nav-links {
+      display: flex;
+      gap: 0;
+      list-style: none;
+    }
 
-          <article class="col-6 col-12-xsmall work-item">
-            <h3>
-              <a
-                href="https://iopscience.iop.org/article/10.3847/1538-4357/ad8b26"
-                rel="noreferrer noopener"
-                target="_blank"
-                >zoomies: A Tool to Infer Stellar Age from Vertical Action in Gaia Data.</a
-              >
-            </h3>
-            <p>
-              Stellar ages are fundamental to understanding a range of astronomical processes, 
-              including Galactic dynamics, stellar evolution, and planetary system formation. 
-              However, extracting age information for main-sequence stars is complex, especially for the lowest-mass stars.
-              We leverage Gaia DR3 astrometry to construct a stellar age prediction 
-              model based only on stellar dynamical properties, namely the vertical action. 
-              We calibrate the hierarchical stellar age–vertical action relation on
-              asteroseismic ages for red-giant-branch stars and isochrone ages 
-              for main-sequence turn-off stars. We describe a framework called "zoomies" based on this calibration, 
-              by which we can infer ages for any star given its vertical action. 
-              The tool is open-source and intended for community use.
-            </p>
-          </article>
+    .nav-links a {
+      display: block;
+      padding: 0 1rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-mid);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
 
-          <article class="col-6 col-12-small work-item">
-            <a href="images/fulls/sagear24.jpg" class="image fit thumb">
-              <!-- TODOL Add alt text for popup caption. -->
-              <img src="images/thumbs/sagear24.jpg" alt="None"/>
-            </a>
-          </article>
+    .nav-links a:hover { color: var(--accent); }
 
+    /* ── Layout wrapper ── */
+    main { max-width: var(--max); margin: 0 auto; padding: 0 2rem; }
 
+    /* ── Section base ── */
+    section {
+      padding: 5rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
 
-          <article class="col-6 col-12-xsmall work-item">
-            <h3>
-              <a
-              href="https://www.pnas.org/doi/10.1073/pnas.2217398120"
-              rel="noreferrer noopener"
-              target="_blank"
-              >The Orbital Eccentricities of Planetary Systems Orbiting M dwarfs</a
-              >
-            </h3>
-            <p>
-              Leveraging the 
-              <a
-                href="https://ui.adsabs.harvard.edu/abs/2012ApJ...756..122D/abstract"
-                rel="noreferrer noopener"
-                target="_blank"
-                >photoeccentric effect</a
-              >
-              , we combine Kepler transit light curves 
-              with stellar density information from spectroscopy and parallaxes from Gaia to
-              constrain the orbital eccentricities for over 150 planets around nearby M dwarfs.
-              Within a Bayesian hierarchical framework, we draw out the underlyling eccentricity
-              distribution for planets around M dwarfs and find two distinct populations:
-              single-transit, higher eccentricity planets and multi-transit, low-eccentricity planets.              
-              We use planet occurrence information to constrain the volume-limited occurrence rate 
-              of eccentric M dwarf planets. Read the paper in PNAS
-      
-            </p>
-          </article>
+    section:last-of-type { border-bottom: none; }
 
-          <article class="col-6 col-12-small work-item">
-            <a href="images/fulls/sagear23.jpg" class="image fit thumb">
-              <!-- TODOL Add alt text for popup caption. -->
-              <img src="images/thumbs/sagear23.jpg" alt="None"/>
-            </a>
-          </article>
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 2rem;
+    }
 
-          <article class="col-6 col-12-xsmall work-item">
-            <h3>
-              <a
-                href="https://iopscience.iop.org/article/10.3847/1538-3881/ab9224"
-                rel="noreferrer noopener"
-                target="_blank"
-                >Upper Limits on Planet Occurrence around Ultracool Dwarfs</a
-              >
-            </h3>
-            <p>
-              As an undergraduate at Boston University, I worked with my advisors Prof. Philip Muirhead and Dr. Julie Skinner to constrain the 
-              upper limit of planet occurrence around late-M and early-L dwarfs (or "ultracool dwarfs") in our local neighborhood. We conducted 
-              a planet search around 827 ultracool dwarfs observed by NASA's K2 mission, and found none. Using this null result, 
-              we constrained the upper limit of planet occurrence around ultracool dwarfs in the local neighborhood, 
-              accounting for our transit detection efficiency and transit probability.
-            </p>
-          </article>
-          <article class="col-6 col-12-small work-item">
-            <a href="images/fulls/UltracoolOccurrence.jpeg" class="image fit thumb">
-              <!-- TODOL Add alt text for popup caption. -->
-              <img src="images/thumbs/UltracoolOccurrence.jpeg" alt="Upper limits on ultracool planet occurrence rate for 
-              period and radius bins at 95% confidence."/>
-            </a>
-          </article>
+    /* ── Hero / About ── */
+    #about {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
 
-          </article>
-        </div>
-      </section>
-      <!-- Papers -->
-      <section id="papers">
-        <h2>Papers</h2>
-        <div class="row">
-          <div class="col-12 col-12-small">
-            <!-- TODO: Add your citations  -->
-            <ol>
-            </ol>
-            <ul class="actions">
-              <!-- TODO: Add link to database of all papers -->
-              <li>
-                <a
-                  href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A(%22Sheila%20Sagear%22)%20%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  class="button"
-                  >All Publications (ADS Search)</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- Presentations -->
-      <section id="presentations">
-        <h2>Selected Presentations</h2>
-        <div class="row">
-          <div class="col-12 col-12-small">
-            <!-- TODO: Add Presentations -->
-            <ul>
-              <li>
-                <a href="pdfs/PennStateCEHW_Slides.pdf"
-                  >The Orbital Dynamics of Small Stars and their Exoplanets</a
-                >, Penn State Center for Exoplanets & Habitable Worlds Seminar (Fall 2025)
-              </li>
-              <li>
-                <a href="https://indico.global/event/8940/contributions/126074/attachments/61263/117904/Sheila_Sagear.pdf"
-                  >The Orbital Eccentricity—Radius Relation for Planets Orbiting M dwarfs</a
-                >, Detection & Dynamics of Exoplanets (DDE) Conference (2025)
-              </li>
-              <li>
-                <a href="https://zenodo.org/record/6562552#.ZDgarezMJz8"
-                  >The Orbital Eccentricities of the Kepler M dwarf Planets: 
-                  A Population-Level View of Planet Dynamics around Small Stars</a
-                >, (Poster) Exoplanets IV Conference (2022)
-              </li>
-              <li>
-                <a href="https://zenodo.org/record/3571483#.ZDgauuzMJz8">Machine Learning Improvements to the 
-                CMS Trigger System</a>, Boston University UROP Symposium (2019)</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- Software -->
-      <section id="software">
-        <h2>Software</h2>
-        <!-- TODO: Add Software  -->
-        <p>
-          I published an open-source Python package called  <a
-          href="https://github.com/ssagear/zoomies"
-          rel="noreferrer noopener"
-          target="_blank"
-          >zoomies</a
-        >, which is an open-source tool to constrain stellar ages using only kinematic information 
-        (vertical action from Gaia), a galactic potential model, and an external stellar calibration
-        sample. The package includes tools to calibrate a stellar age--vertical action relation and apply it to
-        your desired stellar sample. Since the age relation comes from purely kinematic information (galactic orbits),
-        the relation is nearly completely mass-independent, meaning you can use this tool to constrain ages for any stars 
-        from supergiants to M dwarfs!
-        <br>
-    
-        <p>
-          I also published an open-source Python package called  <a
-          href="https://github.com/ssagear/photoeccentric"
-          rel="noreferrer noopener"
-          target="_blank"
-          >photoeccentric</a
-        >, 
-          which includes a suite of tools to process Kepler transit lightcurves, 
-          calculate stellar densities, and perform transit fitting to constrain
-          eccentricities using only photometric data + stellar density priors. 
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3.5rem;
+      align-items: center;
+    }
 
-          <br>
-          <br>
+    .hero-name {
+      font-family: var(--serif);
+      font-size: clamp(2.2rem, 4.5vw, 3rem);
+      font-weight: 200;
+      line-height: 1.15;
+      margin-bottom: 0.35rem;
+      letter-spacing: 0.02em;
+    }
 
-          I contribute to <a
-          href="https://github.com/lightkurve/lightkurve"
-          rel="noreferrer noopener"
-          target="_blank"
-          >lightkurve</a
-        >, 
-          a user-friendly, open-source Python package for working with Kepler, K2, and TESS data.
-        </p>
-      </section>
-      <!-- Contact -->
-      <section id="contact">
-        <h2>Contact</h2>
-        <div class="row">
-          <div class="col-6 col-12-small">
-            <ul class="labeled-icons">
-              <li>
-                <h3 class="icon solid fa-envelope">
-                  <span class="label">Email</span>
-                </h3>
-                <!-- TODO: Add email -->
-                <a href="mailto:USER_EMAIL"
-                  >ssagearastro[at]gmail.com</a
-                >
-              </li>
-            </ul>
-            <ul class="icons">
-              <!-- TODO: Add your social media handles here -->
-              <!-- Other icons are available here: https://fontawesome.com/v4.7/icons/ just change the fa-tag -->
-              <li>
-                <a href="http://www.github.com/ssagear" class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    .hero-title {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--ink-soft);
+      letter-spacing: 0.04em;
+      margin-bottom: 1.8rem;
+    }
 
-      <section id="'Photos">
+    .hero-bio {
+      font-size: 1.0rem;
+      color: var(--ink-mid);
+      line-height: 1.75;
+    }
 
-        <figure>
-          <img src="images/group.jpg" alt="Trulli" style="width:650px;height:500px;">
-          <figcaption>My lovely group at the OWL Exoplanet Workshop in Santa Cruz, CA. 
-            <br>
-            L to R: Natalia Guerrero, Chris Lam, and Quadry Chance.</figcaption>
-        </figure> 
+    .hero-bio p + p { margin-top: 1em; }
 
-      </section>
+    .avatar-box {
+      width: 220px;
+      height: 260px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--rule);
+      background: var(--accent-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
 
+    .avatar-placeholder {
+      font-family: var(--serif);
+      font-size: 4rem;
+      color: var(--accent);
+      opacity: 0.5;
+      font-style: italic;
+    }
+
+    .hero-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0.5rem 1.1rem;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      border-radius: 3px;
+      text-decoration: none;
+      transition: all 0.15s;
+      border: 1px solid;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover { background: #1e3860; border-color: #1e3860; }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink-mid);
+      border-color: var(--rule);
+    }
+
+    .btn-ghost:hover { border-color: var(--ink-mid); color: var(--ink); }
+
+    /* ── Research ── */
+    .research-intro {
+      font-size: 1.05rem;
+      color: var(--ink-mid);
+      max-width: 600px;
+      margin-bottom: 3rem;
+    }
+
+    .research-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .research-card {
+      background: var(--bg-card);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+
+    .research-card:hover { border-color: #aaa; }
+
+    .research-card-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--accent-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .research-card-icon svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--accent);
+      fill: none;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .research-card h3 {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.6rem;
+    }
+
+    .research-card p {
+      font-size: 0.9rem;
+      color: var(--ink-mid);
+      line-height: 1.65;
+    }
+
+    /* ── Publications ── */
+    .pub-note {
+      font-size: 0.9rem;
+      color: var(--ink-soft);
+      margin-bottom: 2.5rem;
+    }
+
+    .pub-note a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .pub-list { list-style: none; }
+
+    .pub-item {
+      padding: 1.4rem 0;
+      border-bottom: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 3rem 1fr;
+      gap: 0 1.2rem;
+      align-items: start;
+    }
+
+    .pub-item:last-child { border-bottom: none; }
+
+    .pub-year {
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      padding-top: 3px;
+    }
+
+    .pub-title {
+      font-family: var(--serif);
+      font-size: 1.02rem;
+      color: var(--ink);
+      line-height: 1.4;
+      margin-bottom: 0.25rem;
+    }
+
+    .pub-title a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .pub-title a:hover { color: var(--accent); }
+
+    .pub-authors {
+      font-size: 0.84rem;
+      color: var(--ink-soft);
+    }
+
+    .pub-journal {
+      font-size: 0.84rem;
+      color: var(--ink-mid);
+      font-style: italic;
+    }
+
+    .pub-tags {
+      display: flex;
+      gap: 6px;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 2px;
+      background: var(--accent-light);
+      color: var(--accent);
+    }
+
+    /* ── CV ── */
+    .cv-section { margin-bottom: 3rem; }
+
+    .cv-section h3 {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .cv-entry {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 0 1.5rem;
+      padding: 0.75rem 0;
+    }
+
+    .cv-year {
+      font-size: 0.82rem;
+      color: var(--ink-soft);
+      font-weight: 400;
+      padding-top: 2px;
+    }
+
+    .cv-detail h4 {
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+
+    .cv-detail p {
+      font-size: 0.88rem;
+      color: var(--ink-soft);
+    }
+
+    .cv-download { margin-top: 2rem; }
+
+    /* ── Contact ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+
+    .contact-info p {
+      font-size: 0.95rem;
+      color: var(--ink-mid);
+      line-height: 1.75;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-item svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--accent);
+      fill: none;
+      stroke-width: 1.5;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .contact-item span {
+      font-size: 0.9rem;
+      color: var(--ink-mid);
+    }
+
+    .contact-item a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact-item a:hover { text-decoration: underline; }
+
+    .contact-form label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 6px;
+      margin-top: 1rem;
+    }
+
+    .contact-form label:first-child { margin-top: 0; }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      color: var(--ink);
+      background: var(--bg-card);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus { border-color: var(--accent); }
+
+    .contact-form textarea { min-height: 120px; resize: vertical; }
+
+    .contact-form button {
+      margin-top: 1.2rem;
+      cursor: pointer;
+      font-family: var(--sans);
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+    }
+
+    footer a { color: var(--ink-soft); text-decoration: none; }
+    footer a:hover { color: var(--ink); }
+
+    /* ── Responsive ── */
+    @media (max-width: 680px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .avatar-box { width: 160px; height: 190px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .cv-entry { grid-template-columns: 1fr; gap: 2px; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-inner">
+      <ul class="nav-links" style="margin-left:auto">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#presentations">Presentations</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#outreach">Outreach</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="inner">
-        <a
-          href="https://www.simonsfoundation.org/flatiron/"
-          class="image logo"
-          target="_blank"
-          id="logo"
-          rel="noreferrer noopener"
-        >
-          <img src="images/logo.svg" alt="logo" id="logo-icon" />
-        </a>
+  </nav>
+
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <div class="hero-grid">
+        <div>
+          <div class="avatar-box">
+            <img src="https://ssagear.github.io/images/avatar.jpg" alt="Sheila Sagear" style="width:100%;height:100%;object-fit:cover;object-position:top" />
+          </div>
+        </div>
+        <div>
+          <h1 class="hero-name">Dr. Sheila Sagear</h1>
+          <p class="hero-title">Postdoctoral Researcher &nbsp;·&nbsp; University of Florida</p>
+          <div class="hero-bio">
+            <p>I am a postdoctoral researcher at the University of Florida specializing in exoplanet demographics and Galactic dynamics. I study exoplanets around the smallest and coolest stars, with a focus on orbital eccentricities and how planetary system architectures connect to the broader structure of the Milky Way.</p>
+            <p>In September 2026, I will begin a Flatiron Research Fellowship in the <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">Center for Computational Astrophysics</a> at the Flatiron Institute.</p>
+            <p>In the past, I have been a Pre-Doctoral Fellow at the Flatiron Institute, an intern at the <a href="https://twitter.com/KeplerGO" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">Kepler/K2 Guest Observer Office</a> at NASA Ames Research Center, and an intern with the <a href="https://fastmachinelearning.org/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">FastML group</a> at CERN.</p>
+          </div>
+          <div class="hero-links">
+            <a class="btn btn-primary" href="#contact">Contact</a>
+            <a class="btn btn-ghost" href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A(%22Sheila%20Sagear%22)%20%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">NASA ADS →</a>
+            <a class="btn btn-ghost" href="https://github.com/ssagear" target="_blank" rel="noopener">GitHub →</a>
+            <a class="btn btn-ghost" href="https://ssagear.github.io/pdfs/cv.pdf" target="_blank" rel="noopener">Download CV →</a>
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!-- TODO: Remove if not using Mathjax -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script
-      id="MathJax-script"
-      async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    ></script>
-  </body>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <p class="section-label">Research</p>
+      <div class="research-intro">
+        <p>My research is focused on the orbital dynamics of exoplanets around small stars, asking how eccentricity distributions, Galactic kinematics, and stellar age connect to the formation and evolution of planetary systems.</p>
+        <p style="margin-top:1em">I am interested in pursuing questions relating to the Galactic history of planets and their host stars:</p>
+        <ul style="margin-top:0.75em;padding-left:1.4em;line-height:1.75">
+          <li>Do planets retain knowledge about where they are in the Milky Way, or of their Galactic history?</li>
+          <li style="margin-top:0.4em">How does the broader structure, dynamics, and history of the Milky Way affect the types and numbers of planets that live in it?</li>
+          <li style="margin-top:0.4em">How do the orbital dynamics of planets around their host stars and the Galactic dynamics of stars around the Galactic center interplay?</li>
+        </ul>
+      </div>
+      <div class="research-grid">
+
+        <a href="https://www.arxiv.org/abs/2509.23973" target="_blank" rel="noopener" class="research-card" style="text-decoration:none;color:inherit;display:block">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M3 12s4-8 9-8 9 8 9 8-4 8-9 8-9-8-9-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Galactic Dynamics &amp; Planet Demographics</h3>
+          <p>Combining Gaia DR3 astrometry with stellar chemistry from APOGEE, I investigated how planetary eccentricity populations differ between the kinematically thin and thick Galactic disks.</p>
+        </a>
+
+        <a href="https://www.pnas.org/doi/10.1073/pnas.2217398120" target="_blank" rel="noopener" class="research-card" style="text-decoration:none;color:inherit;display:block">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/><path d="M2 12h4m12 0h4M12 2v4m0 12v4"/></svg>
+          </div>
+          <h3>Orbital Eccentricities of M Dwarf Planets</h3>
+          <p>Leveraging the photoeccentric effect with Kepler transit light curves, I constrained eccentricity distributions for planets around nearby M dwarf stars, revealing distinct populations for single and multi-planet systems.</p>
+        </a>
+
+        <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad8b26" target="_blank" rel="noopener" class="research-card" style="text-decoration:none;color:inherit;display:block">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Stellar Age Inference</h3>
+          <p>I developed <em>zoomies</em>, an open-source Python tool to infer stellar ages from vertical action in Gaia data, a mass-independent age-constraining method applicable to stars from supergiants to M dwarfs.</p>
+        </a>
+
+        <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ae2d1b" target="_blank" rel="noopener" class="research-card" style="text-decoration:none;color:inherit;display:block">
+          <div class="research-card-icon">
+            <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>The Eccentricity–Radius Relation for M Dwarf Planets</h3>
+          <p>Using TESS and Kepler transit data, I constrained orbital eccentricities for ~200 planets orbiting M dwarfs. I found a positive eccentricity–radius relationship with elevated eccentricities for planets larger than 3.5 R⊕, mirroring the trend seen around Sun-like stars and offering new clues about late-stage dynamical evolution processes.</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <p class="section-label">Selected Publications</p>
+      <p class="pub-note">
+        Full list on <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A(%22Sheila%20Sagear%22)%20%20year%3A2018-&sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">NASA ADS</a>
+      </p>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-year">2026</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://www.arxiv.org/abs/2509.23973" target="_blank" rel="noopener">The Orbital Eccentricities of Planets in the Kinematic Thin and Thick Galactic Disks</a></div>
+            <div class="pub-authors">Sagear, S. A. et al.</div>
+            <div class="pub-journal">Accepted to The Astronomical Journal</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2026</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://iopscience.iop.org/article/10.3847/1538-3881/ae2d1b" target="_blank" rel="noopener">The Orbital Eccentricity–Radius Relation for Planets Orbiting M Dwarfs</a></div>
+            <div class="pub-authors">Sagear, S. A. et al.</div>
+            <div class="pub-journal">The Astronomical Journal</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad8b26" target="_blank" rel="noopener">zoomies: A Tool to Infer Stellar Age from Vertical Action in Gaia Data</a></div>
+            <div class="pub-authors">Sagear, S. A. et al.</div>
+            <div class="pub-journal">The Astrophysical Journal</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2023</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://www.pnas.org/doi/10.1073/pnas.2217398120" target="_blank" rel="noopener">The Orbital Eccentricities of Planetary Systems Orbiting M Dwarfs</a></div>
+            <div class="pub-authors">Sagear, S. A. &amp; Ballard, S.</div>
+            <div class="pub-journal">Proceedings of the National Academy of Sciences, 120</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2020</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://iopscience.iop.org/article/10.3847/1538-3881/ab9224" target="_blank" rel="noopener">Upper Limits on Planet Occurrence around Ultracool Dwarfs</a></div>
+            <div class="pub-authors">Sagear, S. A., Skinner, J. N., &amp; Muirhead, P. S.</div>
+            <div class="pub-journal">The Astronomical Journal, 160, 19</div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- Presentations -->
+    <section id="presentations">
+      <p class="section-label">Selected Presentations</p>
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <div class="pub-year">2025</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://ssagear.github.io/pdfs/PennStateCEHW_Slides.pdf" target="_blank" rel="noopener">The Orbital Dynamics of Small Stars and their Exoplanets</a></div>
+            <div class="pub-authors">Penn State Center for Exoplanets &amp; Habitable Worlds Seminar</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2025</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://indico.global/event/8940/contributions/126074/attachments/61263/117904/Sheila_Sagear.pdf" target="_blank" rel="noopener">The Orbital Eccentricity–Radius Relation for Planets Orbiting M Dwarfs</a></div>
+            <div class="pub-authors">Detection &amp; Dynamics of Exoplanets (DDE) Conference</div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2022</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://zenodo.org/record/6562552" target="_blank" rel="noopener">The Orbital Eccentricities of the Kepler M Dwarf Planets: A Population-Level View of Planet Dynamics around Small Stars</a></div>
+            <div class="pub-authors">Exoplanets IV Conference &nbsp;·&nbsp; <em>Poster</em></div>
+          </div>
+        </li>
+
+        <li class="pub-item">
+          <div class="pub-year">2019</div>
+          <div class="pub-body">
+            <div class="pub-title"><a href="https://zenodo.org/record/3571483" target="_blank" rel="noopener">Machine Learning Improvements to the CMS Trigger System</a></div>
+            <div class="pub-authors">Boston University UROP Symposium</div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- Software -->
+    <section id="software">
+      <p class="section-label">Software</p>
+      <div class="cv-entry" style="padding-bottom:1.25rem;border-bottom:1px solid var(--rule)">
+        <div class="cv-year" style="padding-top:4px">zoomies</div>
+        <div class="cv-detail">
+          <h4><a href="https://github.com/ssagear/zoomies" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">github.com/ssagear/zoomies</a></h4>
+          <p>An open-source Python package to infer stellar ages from vertical action in Gaia data. The relation is nearly mass-independent, making it applicable to any star from supergiants to M dwarfs.</p>
+        </div>
+      </div>
+      <div class="cv-entry" style="padding-top:1.25rem">
+        <div class="cv-year" style="padding-top:4px">lightkurve</div>
+        <div class="cv-detail">
+          <h4><a href="https://github.com/lightkurve/lightkurve" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none">github.com/lightkurve/lightkurve</a></h4>
+          <p>Contributor to this user-friendly, open-source Python package for working with Kepler, K2, and TESS data.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outreach -->
+    <section id="outreach">
+      <p class="section-label">Outreach</p>
+      <div class="hero-bio" style="margin-bottom:2rem">
+        <p>I am passionate about making astronomy and software skills accessible to early-career researchers. For the past two years I have served as a Teaching Assistant and Head Teaching Assistant for Code/Astro, coordinating the TA team, developing curriculum, leading hands-on coding sessions, and mentoring participants as they build their own open-source astronomy packages.</p>
+      </div>
+      <a href="https://semaphorep.github.io/codeastro/" target="_blank" rel="noopener" style="text-decoration:none">
+        <div style="display:flex;align-items:center;gap:1.5rem;background:var(--bg-card);border:1.5px solid #7c3aed;border-radius:8px;padding:1.5rem 1.75rem;max-width:540px;transition:box-shadow 0.2s" onmouseover="this.style.boxShadow='0 0 0 3px #ede9fe'" onmouseout="this.style.boxShadow='none'">
+          <img src="https://semaphorep.github.io/codeastro/assets/img/logo.png" alt="Code/Astro logo" style="width:64px;height:64px;object-fit:contain;flex-shrink:0" onerror="this.style.display='none'" />
+          <div>
+            <div style="font-weight:500;font-size:1.05rem;color:#5b21b6;margin-bottom:0.2rem">Code/Astro Workshop</div>
+            <div style="font-size:0.88rem;color:var(--ink-mid);line-height:1.5">An intensive workshop teaching astronomers modern software development — version control, testing, packaging, and collaborative coding. TA 2025, Head TA 2026.</div>
+            <div style="font-size:0.8rem;color:#7c3aed;margin-top:0.5rem;font-weight:500">semaphorep.github.io/codeastro →</div>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <p class="section-label">Contact</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span><a href="mailto:ssagearastro@gmail.com">ssagearastro@gmail.com</a></span>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77A5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span><a href="https://github.com/ssagear" target="_blank" rel="noopener">github.com/ssagear</a></span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div style="max-width:860px;margin:0 auto;padding:0 2rem 4rem">
+    <figure style="margin:0">
+      <img src="https://ssagear.github.io/images/group.jpg" alt="OWL Exoplanet Workshop group photo" style="width:100%;border-radius:6px;border:1px solid var(--rule);display:block" />
+      <figcaption style="font-size:0.82rem;color:var(--ink-soft);margin-top:0.75rem;line-height:1.5;font-style:italic">My lovely group at the OWL Exoplanet Workshop in Santa Cruz, CA. L to R: Natalia Guerrero, Chris Lam, and Quadry Chance.</figcaption>
+    </figure>
+  </div>
+
+  <footer>
+    <span>© 2025 Sheila Sagear</span>
+    <span>Built with HTML &amp; CSS &nbsp;·&nbsp; Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a></span>
+  </footer>
+
+</body>
 </html>
